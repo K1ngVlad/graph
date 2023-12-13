@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+canvas {
+  /* background: rgb(39, 39, 39); */
+  width: 100%;
+  height: 600px;
+  /* border-radius: 50%; */
+}
+
+/* canvas {
+  animation: canrot linear infinite 60s;
+}
+
+@keyframes canrot {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
